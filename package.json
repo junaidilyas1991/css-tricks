@@ -1,0 +1,15 @@
+{
+  "name": "css-tricks",
+  "version": "1.0.0",
+  "description": "Website developed for listing CSS tricks",
+  "main": "index.js",
+  "author": "mjunaidilyas1991@gmail.com",
+  "scripts": {},
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.42.1"
+  }
+}
