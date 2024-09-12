@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Work+Sans:wght@300;400;600&display=swap");
+:root {
+  --color-gray: #4c4c4c;
+  --color-dark: #161922;
+  --color-purple: #370665;
+  --color-blue: #35589A;
+  --color-blue1: rgba(53, 88, 154, 0.51);
+  --color-blue-100: #C7D9D5;
+  --color-orange: #F14A16;
+  --color-yellow: #FC9918;
+  --color-brown: #dd4a48;
+  --color-green: #00D183;
+  --color-primary: var(--color-blue);
+}
+
+html, body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-size: calc(0.4666666667vw + 0.4666666667vh + 8px);
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+  font-family: "Calistoga", cursive;
+}
+
+strong {
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-size: 60px;
+  font-size: calc(2vw + 2vh + 8px);
+}
+
+h2, .h2 {
+  font-size: 50px;
+  font-size: calc(1.6666666667vw + 1.6666666667vh + 8px);
+}
+
+h3, .h3 {
+  font-size: 35px;
+  font-size: calc(1.1666666667vw + 1.1666666667vh + 8px);
+}
+
+h4, .h4 {
+  font-size: 30px;
+  font-size: calc(1vw + 1vh + 8px);
+}
+
+h5, .h5 {
+  font-size: 30px;
+  font-size: calc(1vw + 1vh + 8px);
+}
+
+h6, .h6 {
+  font-size: 20px;
+  font-size: calc(0.6666666667vw + 0.6666666667vh + 8px);
+}
+
+.heading-medium {
+  font-size: 30px;
+  font-size: calc(1vw + 1vh + 8px);
+}
+
+.heading-small {
+  font-size: 20px;
+  font-size: calc(0.6666666667vw + 0.6666666667vh + 8px);
+}
+
+a {
+  text-decoration: none;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+input, button {
+  outline: none;
+  box-shadow: none;
+}
+
+.container {
+  max-width: 1600px;
+  width: 96%;
+  margin: 0 auto;
+}
+@media (min-width: 1920px) {
+  .container {
+    max-width: 80%;
+  }
+}

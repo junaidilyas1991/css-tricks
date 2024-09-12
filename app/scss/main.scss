@@ -1,0 +1,91 @@
+@import "_partials/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Work+Sans:wght@300;400;600&display=swap');
+
+$font: 'Work Sans', sans-serif;
+$font_bold: 'Calistoga', cursive;
+
+
+$shadow: 0 0 30px 10px rgba(#000, 0.1);
+
+:root{
+    --color-gray: #4c4c4c;
+    --color-dark: #161922;
+    --color-purple: #370665;
+    --color-blue: #35589A;
+    --color-blue1: rgba(53, 88, 154, 0.51);
+    --color-blue-100: #C7D9D5;
+    --color-orange: #F14A16;
+    --color-yellow: #FC9918;
+    --color-brown: #dd4a48;
+    --color-green: #00D183;
+    --color-primary: var(--color-blue);
+}
+
+html, body{
+    font-family: $font;
+    @include font-size(1.4);
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+    font-family: $font_bold;
+}
+strong{
+    font-weight: 600;
+}
+h1, .h1{
+    @include font-size(6);
+}
+
+h2, .h2{
+    @include font-size(5);
+}
+
+h3, .h3{
+    @include font-size(3.5);
+}
+
+h4, .h4{
+    @include font-size(3);
+}
+
+h5, .h5{
+    @include font-size(3);
+}
+
+h6, .h6{
+    @include font-size(2);
+}
+
+.heading-medium{
+    @include font-size(3);
+}
+.heading-small{
+    @include font-size(2);
+}
+
+a{
+    text-decoration: none;
+}
+img, svg{
+    max-width: 100%;
+    height: auto;
+}
+input,button{
+    outline: none;
+    box-shadow: none;
+}
+
+.container{
+    max-width: 1600px;
+    width: 96%;
+    margin: 0 auto;
+    @media (min-width: 1920px) {
+        max-width: 80%;
+    }
+}
+
+
+
+@import "_partials/header";
+

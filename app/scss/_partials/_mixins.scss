@@ -1,0 +1,7 @@
+@use "sass:math";
+@mixin font-size($sizeValue: 1.6) {
+    font-size: #{$sizeValue * 10 + px};
+    font-size: calc(#{math.div($sizeValue, 3)}vw + #{math.div($sizeValue, 3)}vh + 8px);
+  }
+
+  
